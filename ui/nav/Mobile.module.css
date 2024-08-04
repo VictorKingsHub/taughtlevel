@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    display: none;
+    
+    
+
+    @media (max-width: 767px) {
+        display: flex;
+    }
+
+
+}
+.link{
+    margin: .5rem;
+    font-weight: 300;
+    font-size: 13px;
+}
+.active {
+    color: var(--white-color);
+    border-bottom: .5px solid var(--white-color);
+}
+
+.inactive {
+    color: var(--white-color);
+}
