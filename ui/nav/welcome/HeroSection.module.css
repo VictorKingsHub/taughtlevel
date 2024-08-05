@@ -28,7 +28,7 @@
 }
 
 .desc{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.3rem;
     text-align: left;
     font-weight: 400;
@@ -46,7 +46,7 @@
 
 .join{
     background-color: var(--orange-color);
-    border-radius: 1.2rem;
+    border-radius: 1.1rem;
     padding: .5rem 1rem;
     margin: 5px;
     font-size: 1.2rem;
@@ -60,7 +60,7 @@
     font-weight: 300;
     border-radius: 1.5rem;
     margin: 5px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     width: fit-content;
     font-weight: 400;
 }
