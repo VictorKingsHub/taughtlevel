@@ -15,14 +15,14 @@
     font-size: 20px;
     line-height: 1.5em;
     font-weight: 700;
-    margin-bottom: 16px;
+    margin-bottom: .9rem;
     font-family: Montserrat, sans-serif;
 }
 
 .caption{
     font-weight: 700;
     font-size: 40px;
-    margin-bottom: 16px;
+    margin-bottom: .9rem;
     line-height: 2.8rem;
     font-family: Montserrat, sans-serif;
 }
@@ -31,8 +31,8 @@
     font-size: 1.2rem;
     line-height: 1.3rem;
     text-align: left;
-    font-weight: 500;
-    margin-bottom: 16px;
+    font-weight: 400;
+    margin-bottom: .9rem;
     font-family: proxima-nova, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
@@ -50,9 +50,8 @@
     padding: .5rem 1rem;
     margin: 5px;
     font-size: 1.2rem;
-    font-weight: 300;
     width: fit-content;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .get{
@@ -63,5 +62,5 @@
     margin: 5px;
     font-size: 1.2rem;
     width: fit-content;
-    font-weight: 500;
+    font-weight: 400;
 }
