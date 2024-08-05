@@ -17,11 +17,13 @@
     line-height: 24px;
     font-weight: 700;
     margin-bottom: 16px;
+    font-family: Montserrat, sans-serif;
 }
 .caption{
     font-weight: 700;
     font-size: 32px;
     margin-bottom: 16px;
+    font-family: Montserrat, sans-serif;
 }
 
 .desc{
@@ -30,24 +32,26 @@
     text-align: left;
     font-weight: 300;
     margin-bottom: 16px;
+    font-family: proxima-nova, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 .buttons{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Montserrat, sans-serif;
 }
 .join{
     background-color: var(--orange-color);
-    border-radius: 5px;
-    padding: .4rem;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
     margin: 5px;
     width: fit-content;
 }
 .get{
     border: 2px solid var(--orange-color);
-    padding: .4rem;
-    border-radius: 5px;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
     margin: 5px;
     width: fit-content;
 }
