@@ -77,6 +77,8 @@
         flex-direction: column;
         display: none;
         background-color: var(--dark-color);
+        border-radius: 5px;
+        outline: none;
 
     @media (max-width: 767px) {
         display: flex;
