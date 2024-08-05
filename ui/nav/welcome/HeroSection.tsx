@@ -18,8 +18,8 @@ const HeroSection = () => {
           <p>Unleash the world&apos;s most powerful human building capacity, reward the future with profitable accolades to support expertise and business building solutions</p>
         </div>
         <div className={styles.buttons}>
-          <Link href="#" className={styles.join}>Join The Academy</Link>
           <Link href="#" className={styles.get}>Request Appointment</Link>
+          <Link href="#" className={styles.join}>Join The Academy</Link>
         </div>
       </div>
 
