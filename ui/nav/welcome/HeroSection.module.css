@@ -49,7 +49,6 @@
     margin-bottom: .9rem;
     font-family: Montserrat, sans-serif;
     text-align: center;
-    border: 2px solid yellowgreen;
     margin:   auto;
     @media (max-width: 767px) {
         line-height: 1em;
