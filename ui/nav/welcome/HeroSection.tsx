@@ -1,9 +1,23 @@
+"use client"
 import { Button } from '@/components/ui/button'
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import styles from "./HeroSection.module.css"
 import Link from 'next/link'
+// D:\summer progress\taughtlevel\public\video2.mp4
+
 
 const HeroSection = () => {
+
+    const videoRef = useRef(null);
+  
+    useEffect(() => {
+      if (videoRef.current) {
+        videoRef.current.play();
+      }
+  }, [videoRef]);
+
+
+  
   return (
     <div className={styles.container}>
 
@@ -26,8 +40,8 @@ const HeroSection = () => {
       <div className={styles.image}>
         {/* <Image  width="" height="" href=""/> */}
 
-        <video width="320" height="240" controls>
-          <source src="/../../public/video1.mp4" type="video/mp4" />
+        <video width="90%" height="240" controls ref={videoRef}>
+          <source src="/video1.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
