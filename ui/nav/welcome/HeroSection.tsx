@@ -26,7 +26,7 @@ const HeroSection = () => {
       <div className={styles.image}>
         {/* <Image  width="" height="" href=""/> */}
 
-        hh
+        image here
       </div>
 
     </div>
