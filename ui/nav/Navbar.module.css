@@ -60,7 +60,7 @@
 
 .active {
     color: var(--white-color);
-    border-bottom: .5px solid var(--white-color);
+    border-bottom: .5px solid var(--orange-color);
 }
 
 .inactive {

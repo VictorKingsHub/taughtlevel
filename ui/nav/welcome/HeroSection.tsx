@@ -7,12 +7,12 @@ const HeroSection = () => {
   return (
     <div className={styles.container}>
 
-      <div className={styles.left}>
+      <div className={styles.text}>
         <div className={styles.brand}>
           <h1>TAUGHTLEVEL 2024</h1>
         </div>
         <div className={styles.caption}>
-          <h1>Developing Human With Skills To Reward The Future</h1>
+          <h1>Developing Human With Potentials To Reward The Future With Passion</h1>
         </div>
         <div className={styles.desc}>
           <p>Unleash the world&apos;s most powerful human building capacity, reward the future with profitable accolades to support expertise and business building solutions</p>
@@ -21,6 +21,12 @@ const HeroSection = () => {
           <Link href="#" className={styles.get}>Request Appointment</Link>
           <Link href="#" className={styles.join}>Join The Academy</Link>
         </div>
+      </div>
+
+      <div className={styles.image}>
+        {/* <Image  width="" height="" href=""/> */}
+
+        hh
       </div>
 
     </div>
