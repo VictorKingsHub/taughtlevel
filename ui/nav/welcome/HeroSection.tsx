@@ -15,7 +15,7 @@ const HeroSection = () => {
           <h1>Developing Human With Skills To Reward The Future</h1>
         </div>
         <div className={styles.desc}>
-          <p>Unleash the world&apos;s most powerful human building capacity, reward the future with a profitable accolades of support expertise and business building solutions</p>
+          <p>Unleash the world&apos;s most powerful human building capacity, reward the future with profitable accolades to support expertise and business building solutions</p>
         </div>
         <div className={styles.buttons}>
           <Link href="#" className={styles.join}>Join The Academy</Link>
