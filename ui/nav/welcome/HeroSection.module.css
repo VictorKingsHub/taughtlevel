@@ -42,7 +42,6 @@
     justify-content: center;
     align-items: center;
     font-family: Montserrat, sans-serif;
-    font-weight: 500;
 }
 
 .join{
@@ -53,6 +52,7 @@
     font-size: 1.2rem;
     font-weight: 300;
     width: fit-content;
+    font-weight: 500;
 }
 
 .get{
@@ -63,4 +63,5 @@
     margin: 5px;
     font-size: 1.2rem;
     width: fit-content;
+    font-weight: 500;
 }
