@@ -3,7 +3,7 @@
     padding: 7px;
     background: var(--dark-color);
     color: var(--white-color);
-    padding: .5rem 2rem;
+    padding: .7rem 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,6 +12,7 @@
     top: 0;
     right: 0;
     left: 0;
+    border-bottom: .5px solid rgba(255, 166, 0, 0.151);
 }
 
 .navMenu {
@@ -54,6 +55,7 @@
     margin: 1rem;
     font-weight: 400;
     font-size: 16px;
+    padding-bottom: 0.2rem;
 }
 
 .active {
@@ -95,6 +97,7 @@
     margin: .5rem;
     font-weight: 300;
     font-size: 17px;
+    padding-bottom: 0.1rem;;
 
 }
 
