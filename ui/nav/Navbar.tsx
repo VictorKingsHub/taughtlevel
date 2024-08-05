@@ -48,8 +48,8 @@ const Navbar = () => {
             </div>
 
           </DropdownMenuTrigger>
-          <DropdownMenuContent>
-            <DropdownMenuLabel>Logo</DropdownMenuLabel>
+          <DropdownMenuContent className={styles.mobile_body}>
+            <DropdownMenuLabel className={styles.mobile_logo} >Logo</DropdownMenuLabel>
             <DropdownMenuSeparator />
             <DropdownMenuItem className={styles.mobile_container}>
               {NavItems.map(item => {
