@@ -1,4 +1,4 @@
-.container{
+.mobile_container{
     display: flex;
     flex-direction: column;
     background-color: transparent;
@@ -12,16 +12,16 @@
 
 
 }
-.link{
+.mobile_link{
     margin: .5rem;
     font-weight: 300;
     font-size: 13px;
 }
-.active {
+.mobile_active {
     color: var(--white-color);
     border-bottom: .5px solid var(--white-color);
 }
 
-.inactive {
+.mobile_inactive {
     color: var(--white-color);
 }
