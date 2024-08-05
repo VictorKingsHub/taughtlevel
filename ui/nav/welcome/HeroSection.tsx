@@ -40,8 +40,8 @@ const HeroSection = () => {
       <div className={styles.image}>
         {/* <Image  width="" height="" href=""/> */}
 
-        <video width="90%" height="240" controls ref={videoRef}>
-          <source src="/video1.mp4" type="video/mp4" />
+        <video width="90%" height="240"  ref={videoRef}>
+          <source src="/video2.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
