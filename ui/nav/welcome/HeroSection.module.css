@@ -61,9 +61,10 @@
     line-height: 3.2rem;
     
     @media (max-width: 767px) {
-        margin: .3rem;
+        margin: .1rem;
         text-align: center;
         line-height: 2.8rem;
+        font-size: 35px;
     }
 }
 
