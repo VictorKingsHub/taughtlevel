@@ -19,8 +19,12 @@
     width: fit-content;
     display: none;
 
+
     @media (max-width: 767px) {
         display: flex;
+        outline: none;
+        border: none;
+        font-size: 20px;
     }
 }
 

@@ -3,19 +3,14 @@ import React, { useState } from 'react'
 import styles from "./Navbar.module.css"
 import { CiMenuBurger } from 'react-icons/ci'
 import { FaTimes } from 'react-icons/fa'
-// import { NavItems } from "../../ui/nav/navItems"
-import Mobile from './Mobile'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
 import { NavItems } from './navItems'
 
-
 const Navbar = () => {
-
   const [open, setOpen] = useState(true)
   const pathname = usePathname()
-
   return (
     <div className={styles.container}>
       <div className={styles.logo}> Logo </div>
@@ -30,15 +25,8 @@ const Navbar = () => {
           })}
         </div>
 
-
-
-        {/* <div className={`${open ? styles.close : styles.open}`}>
-          <Mobile />
-        </div> */}
-
         <DropdownMenu>
           <DropdownMenuTrigger>
-
             <div className={styles.navMenu} onClick={() => setOpen(!open)}>
               {open ?
                 <CiMenuBurger /> :
