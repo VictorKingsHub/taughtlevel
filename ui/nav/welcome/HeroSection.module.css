@@ -32,14 +32,11 @@
 }
 
 .image {
-    width: 50%;
-    display: none;
+    width: 40%;
 
     @media (max-width: 767px) {
-        display: flex;
         width: 90%;
     }
-
 }
 
 .brand {
@@ -84,7 +81,6 @@
     @media (max-width: 767px) {
         margin: 5px;
         line-height: 1.3rem;
-
     }
 }
 
@@ -110,7 +106,7 @@
     width: fit-content;
     font-weight: 400;
     margin: 1rem;
-
+    color: var(--white-color);
     @media (max-width: 767px) {
         margin: 5px;
     }

@@ -1,13 +1,11 @@
 "use client"
 import { Button } from '@/components/ui/button'
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import styles from "./HeroSection.module.css"
 import Link from 'next/link'
-// D:\summer progress\taughtlevel\public\video2.mp4
-
 
 const HeroSection = () => {
-  
+
   return (
     <div className={styles.container}>
 
@@ -28,11 +26,8 @@ const HeroSection = () => {
       </div>
 
       <div className={styles.image}>
-        {/* <Image  width="" height="" href=""/> */}
-
-        <video width="90%" height="240" controls autoPlay loop >
-          <source src="/video2.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
+        <video width="90%" height="240" autoPlay loop >
+          <source src="/video3.mp4" type="video/mp4" />
         </video>
       </div>
 
