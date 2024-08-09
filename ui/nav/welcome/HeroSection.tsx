@@ -1,11 +1,9 @@
 "use client"
-import { Button } from '@/components/ui/button'
 import React from 'react'
 import styles from "./HeroSection.module.css"
 import Link from 'next/link'
 
 const HeroSection = () => {
-
   return (
     <div className={styles.container}>
 
@@ -26,8 +24,9 @@ const HeroSection = () => {
       </div>
 
       <div className={styles.image}>
-        <video width="90%" height="240" autoPlay loop >
-          <source src="/video3.mp4" type="video/mp4" />
+
+        <video width="300" height="300" controls autoPlay className={styles.video}>
+          <source src="/video2.mp4" type="video/mp4" />
         </video>
       </div>
 

@@ -33,10 +33,18 @@
 
 .image {
     width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     @media (max-width: 767px) {
-        width: 90%;
+        width: 100%;
+        margin-top: 20px;
     }
+}
+
+.video{
+    width: 100%;
 }
 
 .brand {
