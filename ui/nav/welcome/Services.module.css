@@ -28,17 +28,14 @@
     justify-content: center;
     align-items: center;
 
-
-    @media (max-width: 767px) {
-        flex-direction: column;
+    @media (max-width: 480px) {
+        /* flex-direction: column; */
         padding: 0;
         width: 100%;
     }
-
 }
 
 .eachService{
-    /* background-color: blueviolet; */
     width: 260px;
     height: 200px;
     margin: 20px;
