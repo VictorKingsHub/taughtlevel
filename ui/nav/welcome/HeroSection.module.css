@@ -9,10 +9,12 @@
     align-items: center;
     /* text-align: center; */
 
-    @media (max-width: 767px) {
+    @media (max-width: 480px) {
         flex-direction: column;
         height: fit-content;
         padding: 2rem 1rem;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -139,7 +141,7 @@
     width: fit-content;
     font-weight: 500;
 
-    @media (max-width: 767px) {
+    @media (max-width: 480px) {
         padding: 0.3rem .5rem;
         margin: .5rem 0;
     }
