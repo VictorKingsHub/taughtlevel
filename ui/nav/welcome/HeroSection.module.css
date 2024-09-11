@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
 
     @media (max-width: 767px) {
         flex-direction: column;
@@ -17,12 +17,12 @@
 }
 
 .text {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;    
-    text-align: center;
+    /* align-items: center; */
+    /* justify-content: center;     */
+    /* text-align: center; */
     height: 70vh;
 
     @media (max-width: 767px) {
@@ -49,14 +49,15 @@
 }
 
 .brand {
-    color: var(--orange-color);
+    color: var(--lemon-color);
     font-size: 20px;
     line-height: 1.5em;
     font-weight: 700;
     margin-bottom: .9rem;
     font-family: Montserrat, sans-serif;
-    text-align: center;
-    margin:   auto;
+    padding-left: 50px;
+    /* text-align: center; */
+    /* margin:   auto; */
     @media (max-width: 767px) {
         line-height: 1em;
     }
@@ -64,11 +65,11 @@
 
 .caption {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 50px;
     margin: 1rem;
     font-family: Montserrat, sans-serif;
     text-align: left;
-    line-height: 3.2rem;
+    line-height: 3.7rem;
 
     @media (max-width: 767px) {
         margin: .1rem;
@@ -79,13 +80,13 @@
 }
 
 .desc {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.3rem;
     text-align: left;
     font-weight: 400;
     margin: 0 1rem;
     font-family: proxima-nova, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    line-height: 1.8rem;
+    line-height: 2.3rem;
 
     @media (max-width: 767px) {
         margin: 5px;
@@ -95,8 +96,8 @@
 
 .buttons {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     font-family: Montserrat, sans-serif;
     flex-direction: row;
     margin: 1rem;
@@ -108,21 +109,23 @@
 }
 
 .join {
-    background-color: var(--orange-color);
+    background-color: var(--lemon-color);
     border-radius: 1.1rem;
     padding: .5rem 1rem;
     font-size: 1.2rem;
     width: fit-content;
-    font-weight: 400;
+    font-weight: 500;
     margin: 1rem;
     color: var(--white-color);
+    color: var(--dark-color);
+
     @media (max-width: 767px) {
         margin: 5px;
     }
 }
 
 .get {
-    border: 2px solid var(--orange-color);
+    border: 2px solid var(--lemon-color);
     padding: .5rem 1rem;
     font-weight: 300;
     border-radius: 1.5rem;
@@ -130,6 +133,7 @@
     font-size: 1.1rem;
     width: fit-content;
     font-weight: 400;
+    font-weight: 500;
 
     @media (max-width: 767px) {
         margin: 5px;

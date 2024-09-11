@@ -2,6 +2,8 @@
 import React from 'react'
 import styles from "./HeroSection.module.css"
 import Link from 'next/link'
+import Image from 'next/image'
+
 
 const HeroSection = () => {
   return (
@@ -25,9 +27,10 @@ const HeroSection = () => {
 
       <div className={styles.image}>
 
-        <video width="300" height="300" controls autoPlay className={styles.video}>
+        {/* <video width="300" height="300" controls autoPlay className={styles.video}>
           <source src="/video2.mp4" type="video/mp4" />
-        </video>
+        </video> */}
+        <Image    src="/p.png" width={200} height={400} alt="Picture of the author" />
       </div>
 
     </div>

@@ -4,8 +4,11 @@
 
 :root {
     --dark-color: #0a1119;
+    --light-color: #111924;
+    --deepLemon-color: #112421;
+
     --white-color: #ffffff;
-    --orange-color: rgb(255, 150, 0);
+    --lemon-color: rgb(153, 229, 0);
     --font-family: Arial, sans-serif;
 }
 
