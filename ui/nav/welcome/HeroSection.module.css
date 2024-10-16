@@ -99,11 +99,11 @@
 
 .buttons {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    align-items: center;
     font-family: Montserrat, sans-serif;
     flex-direction: row;
     margin: 1rem;
+    width: 100%;
 
     @media (max-width: 767px) {
         flex-direction: column;
@@ -118,8 +118,6 @@
     font-size: 1.2rem;
     width: fit-content;
     font-weight: 500;
-    /* margin: 1rem; */
-    color: var(--white-color);
     color: var(--dark-color);
 
     @media (max-width: 767px) {
