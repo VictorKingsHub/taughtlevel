@@ -1,9 +1,10 @@
+import Hero from '@/ui/nav/whoweare/Hero'
 import React from 'react'
 
 const Contact = () => {
   return (
     <div>
-      Contact Us
+<Hero title={'Contact Us'} desc={' COnnect with us for more clarity, content and booking'} />
     </div>
   )
 }

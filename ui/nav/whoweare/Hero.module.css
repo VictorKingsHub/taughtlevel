@@ -12,7 +12,6 @@
 
     @media(max-width: 768px) {
         padding: 1rem .5rem;
-
     }
 }
 
@@ -20,7 +19,7 @@
     font-family: Raleway, sans-serif;
     font-weight: 600;
     font-size: 25px;
-    color: var(--gray);
+    color: var(--darkLemon-color);
 
     @media(max-width: 768px) {
         font-size: 20px;
@@ -36,7 +35,6 @@
 
     @media(max-width: 768px) {
         font-size: 15px;
-        font-weight: 500;
         padding: 0 1.3rem;
         line-height: 19px;
     }
