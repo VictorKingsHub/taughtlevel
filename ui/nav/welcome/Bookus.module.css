@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.first, .second{
+    width: 40%;
+    margin: 5PX;
+    padding: 5px;
+    color: white;
+    
+
+    @media (max-width: 767px) {
+        width: 100%;
+
+    }
+}
+.topic{
+    font-size: 1.5rem;
+    color: var(--lemon-color);
+
+
+}

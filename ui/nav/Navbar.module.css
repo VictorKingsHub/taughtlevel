@@ -12,7 +12,6 @@
     top: 0;
     right: 0;
     left: 0;
-    /* border-bottom: 10px outset var(--lemon-color); */
     z-index: 100;
 }
 

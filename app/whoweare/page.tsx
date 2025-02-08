@@ -1,10 +1,12 @@
+import WhoWeAreHero from '@/ui/nav/whoweare/Hero'
+import UsSection from '@/ui/nav/whoweare/Us'
 import React from 'react'
 
 const WhoWeAre = () => {
   return (
     <div>
-      WhoWeAre
-      WhoWeAre
+      <WhoWeAreHero />
+      <UsSection />
     </div>
   )
 }

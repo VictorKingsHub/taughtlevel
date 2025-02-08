@@ -4,7 +4,6 @@ const WhatWeDo = () => {
   return (
     <div>
       WhatWeDo
-      WhatWeDo
     </div>
   )
 }

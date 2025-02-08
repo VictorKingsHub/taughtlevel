@@ -42,7 +42,7 @@ const Navbar = () => {
             <DropdownMenuItem className={styles.mobile_container}>
               {NavItems.map(item => {
                 return (
-                  <Link className={`${item.href === pathname ? styles.mobile_active : styles.mobile_inactive} ${styles.mobile_link}`} href={item.href}> {item.label} </Link>
+                  <Link  key={item.id} className={`${item.href === pathname ? styles.mobile_active : styles.mobile_inactive} ${styles.mobile_link}`} href={item.href}> {item.label} </Link>
                 )
               })}
             </DropdownMenuItem>

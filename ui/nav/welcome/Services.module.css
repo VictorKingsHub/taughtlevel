@@ -1,5 +1,4 @@
 .container{
-    background-color: var(--dark-color);
     color: var(--white-color);
     width: 100%;
     height: fit-content;
@@ -18,7 +17,7 @@
 .serve{
     width: 93%;
     min-height: 320px;
-    padding: 12px;
+    /* padding: 12px; */
     background: linear-gradient(to right, var(--light-color), var(--deepLemon-color));
     border: none;
     border-radius: 15px;
