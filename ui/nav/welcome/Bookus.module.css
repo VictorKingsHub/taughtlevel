@@ -5,22 +5,30 @@
     align-items: center;
     padding: 20px;
     flex-wrap: wrap;
+    color: rebeccapurple;
 }
 .first, .second{
     width: 40%;
     margin: 5PX;
     padding: 5px;
-    color: white;
+    font-size: 20px;
+    color: var(--dark-color);
+
     
 
     @media (max-width: 767px) {
         width: 100%;
+        font-size: 16px;
 
     }
 }
 .topic{
-    font-size: 1.5rem;
-    color: var(--lemon-color);
+    font-size: 2rem;
+    color: var(--darkLemon-color);
+    font-weight: 500;
 
+    @media (max-width: 767px) {
+       font-weight: 400;
 
+    }
 }

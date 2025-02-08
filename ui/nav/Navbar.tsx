@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className={styles.largeNav}>
           {NavItems.map(item => {
             return (
-              <Link href={item.href} className={`${item.href === pathname ? styles.active : styles.inactive} ${styles.navBoth}`}
+              <Link href={item.href} key={item.id} className={`${item.href === pathname ? styles.active : styles.inactive} ${styles.navBoth}`}
               >{item.label}</Link>
             )
           })}

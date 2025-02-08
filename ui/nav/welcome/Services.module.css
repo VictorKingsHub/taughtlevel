@@ -1,5 +1,4 @@
 .container{
-    color: var(--white-color);
     width: 100%;
     height: fit-content;
     display: flex;
@@ -8,6 +7,7 @@
     justify-content: center;
     outline: none;
     border: none;
+    padding: 1.5rem 0;
 
     @media (max-width: 767px) {
 
@@ -18,7 +18,8 @@
     width: 93%;
     min-height: 320px;
     /* padding: 12px; */
-    background: linear-gradient(to right, var(--light-color), var(--deepLemon-color));
+    /* background: linear-gradient(to right, var(--light-color), var(--deepLemon-color)); */
+    background-color: #f2f2f2;
     border: none;
     border-radius: 15px;
     display: flex;
@@ -35,17 +36,16 @@
 }
 
 .eachService{
-    width: 260px;
-    height: 200px;
+    width: 270px;
+    height: fit-content;
     margin: 20px;
     border-radius: 4%;
     padding: 15px;
-    border-left: 1px solid var(--lemon-color);
-    border-right: 1px solid var(--lemon-color);   
+    border-left: 1px solid var(--darkLemon-color);
+    border-right: 1px solid var(--darkLemon-color);   
     
     @media (max-width: 767px) {
-        border-bottom: 1px solid var(--lemon-color);
-        /* border-top: 1px solid var(--lemon-color); */
+        border-bottom: 1px solid var(--darkLemon-color);
         border-right: 0;
         border-left: 0;
         padding: 5px 10px;
@@ -55,7 +55,11 @@
 }
 
 .label{
-    color: var(--lemon-color);
-    font-size: 18px;
+    color: var(--darkLemon-color);
+    font-size: 1.5rem;
     text-align: center;
+}
+
+.desc{
+    font-size: 18px;
 }

@@ -16,9 +16,9 @@ const Services = () => {
       <div className={styles.serve}>
         {Service.map(each => {
           return (
-            <div key={each.desc}  className={styles.eachService}>
-              <h3 className={styles.label} key={each.id}> {each.label} </h3>
-              <p> {each.desc} </p>
+            <div key={each.id}  className={styles.eachService}>
+              <h3 className={styles.label} > {each.label} </h3>
+              <p className={styles.desc} > {each.desc} </p>
             </div>
           )
         })}

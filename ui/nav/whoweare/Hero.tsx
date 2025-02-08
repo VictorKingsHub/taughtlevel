@@ -1,14 +1,19 @@
 import React from 'react'
 import styles from "./Hero.module.css"
 
-const WhoWeAreHero = () => {
+interface Hero{
+  title: string,
+  desc: string
+}
+
+const WhoWeAreHero = ({title, desc } : Hero) => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-        <h1>Who We Are</h1>
+        <h1> {title} </h1>
       </div>
       <div className={styles.desc}>
-        <p>Your trusted partner in education and travel solutions. We specialize in School Supervision; Providing guidance and support for students and schools, Staff Recruiting for schools and organisations, Travel Services, Work and Study Abroad Programs.</p>
+        <p> {desc} </p>
       </div>
     </div>
   )
