@@ -1,124 +1,127 @@
 .container {
-    width: 100%;
-    padding: 7px;
-    background: var(--dark-color);
-    color: var(--white-color);
-    padding: .7rem 3.1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 100;
+  width: 100%;
+  padding: 7px;
+  background: white;
+  color: var(--white-color);
+  padding: 1.5rem 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+
+  box-shadow: 0px 3px 23px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 3px 23px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 23px -6px rgba(0, 0, 0, 0.75);
+
+  @media (max-width768px) {
+    padding: 1rem;
+  }
 }
 
 .navMenu {
-    width: fit-content;
-    display: none;
+  width: fit-content;
+  display: none;
 
-    @media (max-width: 767px) {
-        display: flex;
-        outline: none;
-        border: none;
-        font-size: 20px;
-    }
+  @media (max-width: 767px) {
+    display: flex;
+    outline: none;
+    border: none;
+    font-size: 20px;
+  }
 }
 
 .menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-.nav {
-    background: rebeccapurple;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .open {
-    display: flex;
+  display: flex;
 }
 
 .close {
-    display: none;
+  display: none;
 }
 
 .largeNav {
-    @media (max-width: 767px) {
-        display: none;
-    }
+  @media (max-width: 767px) {
+    display: none;
+  }
 }
 
 .navBoth {
-    margin: 1rem;
-    font-weight: 400;
-    font-size: 16px;
-    padding-bottom: 0.2rem;
+  margin: 1rem;
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 0.2rem;
 }
 
 .active {
-    color: var(--white-color);
-    border-bottom: .5px solid var(--lemon-color);
-    font-family: Montserrat, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
+  color: var(--darkLemon-color);
+  border-bottom: 0.5px solid var(--darkLemon-color);
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .inactive {
-    color: var(--white-color);
-    font-family: Montserrat, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
+  color: var(--dark-color);
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .mobile_container {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--dark-color);
-    padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-color);
+  padding: 1rem 3rem;
 }
 
 .mobile_logo {
-    color: var(--lemon-color);
-    text-align: center;
+  color: var(--darkLemon-color);
+  text-align: center;
 }
 
 .mobile_body {
-    display: flex;
-    flex-direction: column;
-    display: none;
-    background-color: var(--dark-color);
-    border-radius: 5px;
-    outline: none;
-    margin: 0 .5rem 0 0;
+  display: flex;
+  flex-direction: column;
+  display: none;
+  background-color: var(--dark-color);
+  border-radius: 5px;
+  outline: none;
+  margin: 0 0.5rem 0 0;
 
-    @media (max-width: 767px) {
-        display: flex;
-    }
+  @media (max-width: 767px) {
+    display: flex;
+  }
 }
 
 .mobile_link {
-    margin: .5rem;
-    font-weight: 300;
-    font-size: 17px;
-    padding-bottom: 0.1rem;;
-
+  margin: 0.5rem;
+  font-weight: 300;
+  font-size: 17px;
+  padding-bottom: 0.1rem;
 }
 
 .mobile_active {
-    color: var(--white-color);
-    border-bottom: .5px solid var(--lemon-color);
+  color: var(--white-color);
+  border-bottom: 0.5px solid var(--darkLemon-color);
 }
 
 .mobile_inactive {
-    color: var(--white-color);
+  color: var(--white-color);
 }
 
 .logo {
-    color: var(--lemon-color);
-    font-family: Montserrat, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
+  color: var(--darkLemon-color);
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
 }
